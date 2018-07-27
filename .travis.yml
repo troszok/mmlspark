@@ -1,0 +1,6 @@
+language: scala
+scala:
+  - 2.11.11
+before_install:
+  - sudo apt-get install coreutils
+script: ./runme BUILDMODE=server MODE=server
